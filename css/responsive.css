@@ -165,7 +165,7 @@
         width: 100%;
     }
     .navigation .navbar-collapse {
-        background: #95bb77;
+        background: #c4c4c4e0;
         padding: 20px;
        margin-top: -5px;
         position: absolute;
@@ -175,7 +175,7 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: #fff;
+        color: #000000;
     }
     .navigation.navbar-dark .navbar-toggler {
         float: right;
