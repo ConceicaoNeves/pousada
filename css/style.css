@@ -416,6 +416,20 @@ button {
      padding: 0;
 }
 
+.titlepage1 {
+     text-align: left;
+     padding-bottom: 0px;
+}
+.titlepage1 h2 {
+     font-size: 15px;
+     color: #005536;
+     line-height: 45px;
+     font-weight: bold;
+     text-transform: uppercase;
+     padding: 0;
+}
+
+
 .titlepage h2::before {
      position: absolute;
      content: "";
