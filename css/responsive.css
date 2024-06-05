@@ -38,6 +38,26 @@
     .book_btn {
         padding: 5px 0;
     }
+    
+    .detalhes .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .detalhes .row .crow{
+        margin: 0;
+    }
+    .detalhes .col-md-6 {
+        padding: 0px;
+    }
+
+    .detalhes .responsive-image {
+        width: 100%;
+        min-height: 70vh;
+        object-fit: cover; /* Corta a largura da imagem conforme necessário */
+        border-radius: 0;
+        margin: 0;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -120,6 +140,38 @@
     .crow {
         display: flex;
         flex-wrap: nowrap;
+    }
+    .detalhes .container-fluid {
+        padding-left: 0; /* Remove a margem esquerda em dispositivos móveis */
+    }
+
+    .detalhes .row {
+        flex-direction: column;
+        margin: 0; /* Remove margens da row em telas pequenas */
+    }
+
+    .detalhes .row .crow{
+        margin-left: 20px;
+    }
+
+    .detalhes h2 {
+        margin-top: 25px;
+        margin-bottom: 0;
+        text-align:  center;
+    }
+
+    .detalhes .col-md-6 {
+        padding: 0; /* Remove o padding das colunas em dispositivos móveis */
+        width: 100%; /* Garante que cada coluna ocupe 100% da largura da tela */
+    }
+
+    .detalhes .responsive-image {
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container-detalhes {
+        flex-direction: column;
     }
 }
 
@@ -240,5 +292,38 @@
         align-items: center; 
         justify-content: center;
     }
+    .detalhes .container-fluid {
+        padding-left: 0; /* Remove a margem esquerda em dispositivos móveis */
+    }
+
+    .detalhes .row {
+        flex-direction: column;
+        margin: 0; /* Remove margens da row em telas pequenas */
+    }
+
+    .detalhes .row .crow{
+        margin-left: 20px;
+    }
+
+    .detalhes h2 {
+        margin-top: 25px;
+        margin-bottom: 0;
+        text-align:  center;
+    }
+
+    .detalhes .col-md-6 {
+        padding: 0; /* Remove o padding das colunas em dispositivos móveis */
+        width: 100%; /* Garante que cada coluna ocupe 100% da largura da tela */
+    }
+
+    .detalhes .responsive-image {
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container-detalhes {
+        flex-direction: column;
+    }
+
 
 }

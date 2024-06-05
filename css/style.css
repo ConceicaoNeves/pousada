@@ -778,7 +778,6 @@ button {
 
 .footer {
      background: #f4f5f7;
-     margin-top: 90px;
      padding-top: 60px;
      text-align: center;
      border: #ff0909 solid 3px;
@@ -936,9 +935,58 @@ ul.social_icon li a:hover {
      color: #ff0909;
 }
 
+.conta i{
+     color: green
+}
 
 /** end footer **/
 
+/** detalhes **/
+
+
+.detalhes h2 {
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-bottom: 3px;
+}
+
+.detalhes .container-fluid {
+    padding-right: 0;
+    background-color: #f4f5f7;
+}
+
+.detalhes .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.detalhes .col-md-6 {
+    padding: 0px;
+}
+
+.detalhes .responsive-image {
+    width: 100%;
+    min-height: 50vh;
+    object-fit: cover; /* Corta a largura da imagem conforme necessário */
+    border-radius: 0;
+    margin: 0;
+}
+
+.detalhes .conta li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.detalhes .conta li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/** end detalhes **/
 
 /**  inner page css **/
 .back_re {
