@@ -58,6 +58,12 @@
         border-radius: 0;
         margin: 0;
     }
+    .tab{
+        -ms-flex: 0 0 25%;
+        flex: 0 0 100%;
+        max-width: 50%;
+    }
+    
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -66,7 +72,7 @@
     
     }
     .carousel-item img {
-        min-height: 570px;
+        
     }
     .carousel-indicators {
         bottom: 27px;
@@ -184,7 +190,7 @@
         border-bottom: #f4f5f7 solid 5px;
     }
     .carousel-item img {
-        min-height: 570px;
+        
     }
     .book_room h1 {
         font-size: 20px;
